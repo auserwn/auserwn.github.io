@@ -132,6 +132,12 @@ form button:hover {
   height: 100%;
   z-index: 1;
 }
+.picture-login-1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
 .bg-bubbles li {
   position: absolute;
   list-style: none;

@@ -1,17 +1,4 @@
 
-/*
-
-  Shape Shifter
-  =============
-  A canvas experiment by Kenneth Cachia
-  http://www.kennethcachia.com
-
-  Updated code
-  ------------
-  https://github.com/kennethcachia/Shape-Shifter 
-
-*/
-
 // '#countdown 3|hi|祝你|生日快乐|happy birthday||'
 var S = {
   init: function () {
@@ -25,7 +12,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('Hi brother|祝你|生日快乐|happy birthday|#countdown 3||');
+      S.UI.simulate('Hi 赵美丽|祝老婆|生日快乐|happy birthday|#countdown 3||');
     }
 
     S.Drawing.loop(function () {

@@ -433,6 +433,9 @@ body {
 		opacity: 1;
 	}
 }
+.for-delay{
+    animation: 15s;
+}
 
 .button-style1 ,.button-style2{
 	position:absolute;
