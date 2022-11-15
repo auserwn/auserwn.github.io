@@ -137,7 +137,8 @@
 	border-radius: 25px;
 	position: absolute;
 	left: 48%;
-	bottom: 50%;
+	top: 5%;
+	/*bottom: 40%;*/
 	margin-bottom:50%;
 	overflow: hidden;
 	transform-origin:center bottom;
@@ -1319,15 +1320,15 @@
 
 /* 盒子 */
 .ly-box32 {
-	width: 40%;
-	height: 400px;
+	width: 32%;
+	height: 480px;
 	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
 	border-radius: 8px;
 	position: absolute;
 	left: 57%;
-	top:10%;
+	top:20%;
 	overflow: hidden;
 	opacity: 0;
 	-webkit-transform: scale(0.5, 0.5);
@@ -1383,14 +1384,14 @@
 }
 
 .ly-txt34 {
-	text-indent:2em;
-	font-family: Microsoft YaHei;
-	font-size: 18px;
+	text-indent:1em;
+	font-family: LiSu;
+	font-size: 22px;
 	font-color: #000;
 	position: absolute;
-	margin-left:30px;
+	margin-left:25px;
 	margin-right:30px;
-	top: 12%;
+	top: 13.2%;
 	opacity: 1;
 	transition: all 13s;
 	height:0;
@@ -1871,6 +1872,28 @@
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
 	transition-delay: 5s;
+}
+.ly-box85 {
+	width: 80%;
+	height: 600px;
+	border: 2px #CCC;
+	background-color: #fff;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 8px;
+	position: absolute;
+	left: 10%;
+	top:0%;
+	overflow: hidden;
+	opacity: 0;
+	-webkit-transform: scale(0.5, 0.5);
+	transform: scale(0.5, 0.5);
+	transition: all 1s;
+}
+.active .ly-box85{
+	opacity: 0.9;
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
+	transition-delay: 0.1s;
 }
 /*小三角*/
 .ly-triangle82 {
