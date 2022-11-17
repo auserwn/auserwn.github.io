@@ -36,6 +36,49 @@ body :-ms-input-placeholder {
   color: white;
   font-weight: 300;
 }
+a {
+  position: relative;
+  width: 400px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #ffff00;
+  background: linear-gradient(to right,#03a9f4,#f441a5,#ffeb3b,#09a8f4);
+  background-size: 400%;
+  border-radius: 50px;
+  z-index: 1;
+}
+/*
+定义动画
+ */
+/*发光效果*/
+a::before{
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  bottom: -5px;
+  right: -5px;
+  background: linear-gradient(to right,#03a9f4,#f441a5,#ffeb3b,#09a8f4);
+  background-size: 400%;
+  border-radius: 50px;
+  z-index: -1;
+  filter: blur(20px);
+}
+a:hover{
+  animation: streamer 8s infinite;
+}
+a:hover::before{
+  animation: streamer 8s infinite;
+}
+@keyframes streamer {
+  100%{
+    background-position: -400% 0;
+  }
+}
 .wrapper {
   background: #ee9ca7;
   background: -webkit-linear-gradient(top left, #ee9ca7 0%, #ee9ca7 100%);
@@ -47,6 +90,16 @@ body :-ms-input-placeholder {
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+
+.container2 {
+  max-width: 100px;
+  margin: 0 auto;
+  margin-top: 0%;
+  margin-left: 0%;
+  padding: 80px 0;
+  height: 100px;
+  text-align: center;
 }
 
 .wrapper.form-success .container h1 {
@@ -123,6 +176,7 @@ form button {
 form button:hover {
   background-color: #f5f7f9;
 }
+
 .bg-bubbles {
   position: absolute;
   top: 0;
@@ -136,6 +190,14 @@ form button:hover {
   top: 0px;
   left: 0px;
   z-index: 1;
+}
+.music-login-1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
 }
 .bg-bubbles li {
   position: absolute;

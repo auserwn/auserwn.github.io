@@ -1387,7 +1387,8 @@
 	text-indent:1em;
 	font-family: LiSu;
 	font-size: 22px;
-	font-color: #000;
+	font-color: #42426F;
+	font-weight:bold;
 	position: absolute;
 	margin-left:25px;
 	margin-right:30px;
@@ -1882,7 +1883,7 @@
 	border-radius: 8px;
 	position: absolute;
 	left: 10%;
-	top:0%;
+	top:9%;
 	overflow: hidden;
 	opacity: 0;
 	-webkit-transform: scale(0.5, 0.5);
