@@ -182,8 +182,8 @@ body {
   height: 50px;
   background-color: rgba(255, 255, 255, 0.15);
   bottom: -160px;
-  -webkit-animation: square 30s infinite;
-  animation: square 30s infinite;
+  -webkit-animation: square 15s infinite;
+  animation: square 15s infinite;
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
 }
@@ -270,6 +270,15 @@ body {
           animation-delay: 5s;
   -webkit-animation-duration: 19s;
           animation-duration: 19s;
+}
+.bg-bubbles li:nth-child(11) {
+    left: 100%;
+    width: 80px;
+    height: 80px;
+    -webkit-animation-delay:5s;
+    animation-delay: 5s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 12s;
 }
 /*.bg-bubbles li:nth-child(3) {
   left: 25%;
