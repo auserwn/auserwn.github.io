@@ -1322,10 +1322,6 @@
 	overflow: hidden;
 	transition:all 0.5s;
 }
-.active .ly-imgbox31{
-	opacity:1;
-	transition-delay:3.5s;
-}
 .ly-img31{
 	position: absolute;
 	width: 100%;

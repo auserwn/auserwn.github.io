@@ -123,6 +123,47 @@ a:hover::before{
   /*        transition-timing-function: ease-in-put;*/
   font-weight: 200;
 }
+
+.button-style1 {
+  position:absolute;
+  top:10%;
+  font-size: 60px;
+  font-family: LiSu;
+  font-weight:bold;
+  opacity:1;
+  z-index:100;
+  left:30%;
+  animation:btn1 12s;
+}
+.bt1 {
+  position:relative;
+  top:10%;
+  vertical-align:middle;
+  color: #FF8EFF;
+}
+@keyframes btn1 {
+  0% {
+    opacity:0;
+  }
+  70% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-webkit-keyframes btn1 {
+  0% {
+    opacity:0;
+  }
+  70% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
 form {
   padding: 20px 0;
   position: relative;
@@ -300,4 +341,101 @@ form button:hover {
     -webkit-transform: translateY(-900px) rotate(600deg);
             transform: translateY(-900px) rotate(600deg);
   }
+}
+
+
+/*以下是测试代码*/
+.happy {
+  animation: happybirthdays 13s;
+  animation-delay: 0ms;
+  position:absolute;
+  left:500px;
+  top:400px;
+  opacity: 1;
+  z-index:100;
+}
+@keyframes happybirthdays {
+  0% {
+    position:absolute;
+    opacity: 0;
+  }
+  70% {
+    position:absolute;
+    opacity: 0;
+  }
+  100% {
+    position:absolute;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes happybirthdays {
+  0% {
+    position:absolute;
+    opacity: 0;
+  }
+  70% {
+    position:absolute;
+    opacity: 0;
+  }
+  100% {
+    position:absolute;
+    opacity: 1;
+  }
+}
+test01-form {
+  padding: 20px 0;
+  position: absolute;
+  z-index: 2;
+}
+test01-form input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 200px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-family: "YouYuan";
+  font-weight: bolder;
+  font-size: 18px;
+  color: white;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+}
+test01-form input:hover {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+test01-form input:focus {
+  background-color: white;
+  width: 250px;
+  color: #79A8AE;
+}
+test01-form button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: "YouYuan", serif;
+  font-weight: bold;
+  padding: 10px 15px;
+  color: #79A8AE;
+  border-radius: 3px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  background-position: 20px 234px;
+}
+test01-form button:hover {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
 }
