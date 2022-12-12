@@ -766,7 +766,8 @@
 .ly-imgbox11{
 	position: absolute;
 	bottom: 0;
-	width: 100%;
+	left: 15px;
+	width: 95%;
 	height: 70%;
 	border-radius: 8px;
 	opacity:0;
@@ -1315,7 +1316,7 @@
 .ly-imgbox31{
 	position: absolute;
 	bottom: 0;
-	width: 100%;
+	width: 90%;
 	height: 70%;
 	border-radius: 8px;
 	opacity:0;
