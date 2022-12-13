@@ -1,29 +1,30 @@
 
 // '#countdown 3|hi|祝你|生日快乐|happy birthday||'
+//这段代码是倒计时的那种，现在删除处理
 var S = {
   init: function () {
-    var m=0;
-    var action = window.location.href,
-        i = action.indexOf('?a=');
-
-    S.Drawing.init('.canvas');
-    document.body.classList.add('body--ready');
-
-    if (i !== -1) {
-      S.UI.simulate(decodeURI(action).substring(i + 3));
-    } else {
-      S.UI.simulate('Hi 赵美丽|祝老婆|生日快乐|happy birthday|#countdown 3||');
-    }
-
-    S.Drawing.loop(function () {
-            m++;
-      S.Shape.render();
-      //console.log(m);
-      if(m==700){
-        window.location.href="../html/BirthdayCake.html";
-      }
-    });
-
+    // var m=0;
+    // var action = window.location.href,
+    //     i = action.indexOf('?a=');
+    //
+    // S.Drawing.init('.canvas');
+    // document.body.classList.add('body--ready');
+    //
+    // if (i !== -1) {
+    //   S.UI.simulate(decodeURI(action).substring(i + 3));
+    // } else {
+    //   S.UI.simulate('Hi 赵美丽|祝老婆|生日快乐|happy birthday|#countdown 3||');
+    // }
+    //
+    // S.Drawing.loop(function () {
+    //         m++;
+    //   S.Shape.render();
+    //   //console.log(m);
+    //   if(m==700){
+    //     window.location.href="../html/BirthdayCake.html";
+    //   }
+    // });
+    window.location.href="../html/BirthdayCake.html";
   }
 };
 
