@@ -148,7 +148,7 @@ a:hover::before{
 }
 .bt1 {
   position:relative;
-  top:10%;
+  top:0%;
   vertical-align:middle;
   color: #FF8EFF;
 }

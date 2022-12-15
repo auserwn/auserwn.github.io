@@ -1351,7 +1351,7 @@
 }
 
 .ly-txt32 {
-	font-family: Microsoft YaHei;
+	font-family: KaiTi;
 	font-size: 18px;
 	text-indent:2em;
 	font-color: #000;
@@ -1360,7 +1360,7 @@
 	padding-top: 20px;
 	left: 5%;
 	right: 5%;
-	top: 16%;
+	top: 22%;
 	opacity: 0;
 	transition: all 1s;
 }
@@ -1873,7 +1873,7 @@
 	transition-delay: 2.5s;
 }
 .ly-txt82 {
-	font-family: Microsoft YaHei;
+	font-family: STXinwei;
 	font-size: 14px;
 	text-indent:1em;
 	font-color: #000;
@@ -1984,8 +1984,8 @@
 
 .ly-txt84 {
 	text-indent:2em;
-	font-family: Microsoft YaHei;
-	font-size: 15px;
+	font-family: STXingkai;
+	font-size: 17px;
 	font-color: #000;
 	position: absolute;
 	margin-left:30px;
