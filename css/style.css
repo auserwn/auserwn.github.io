@@ -783,6 +783,7 @@
 	width: 100%;
 	bottom: 0;
 }
+
 /*文本*/
 .ly-txt11 {
 	font-family: Microsoft YaHei;
@@ -1107,7 +1108,7 @@
 	position: absolute;
 	width:80%;
 	top:11%;
-	margin-left:3%;
+	margin-left:2%;
 	opacity: 0;
 	transition: all 0.5s;
 	width:88%;
@@ -1205,6 +1206,7 @@
 	font-family: Microsoft YaHei;
 	font-size: 14px;
 	font-color: #000;
+	font-weight: bolder;
 	position: absolute;
 	width:80%;
 	top:11%;
@@ -1331,10 +1333,11 @@
 }
 /*文本*/
 .ly-txt31 {
-	font-family: Microsoft YaHei;
+	font-family: LiSu;
 	font-size: 30px;
 	text-shadow: 1px;
-	font-color: #000;
+	font-weight: bolder;
+	font-color: #96FED1;
 	position: absolute;
 	left: 3%;
 	top: 4%;
@@ -1347,17 +1350,17 @@
 	transition-delay: 3.5s;
 }
 
-
 .ly-txt32 {
 	font-family: Microsoft YaHei;
-	font-size: 20px;
+	font-size: 18px;
 	text-indent:2em;
 	font-color: #000;
+	font-weight: 500;
 	position: absolute;
 	padding-top: 20px;
 	left: 5%;
 	right: 5%;
-	top: 12%;
+	top: 16%;
 	opacity: 0;
 	transition: all 1s;
 }
@@ -1452,6 +1455,12 @@
 .active .ly-txt34 {
 	height:500px;
 	transition-delay: 6.5s;
+}
+
+.ly-img11-2{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
 }
 .ly-imgbox31{
 	position: absolute;
@@ -1871,7 +1880,8 @@
 	position: absolute;
 	padding-top: 20px;
 	left: 5%;
-	top: 11%;
+	top: 5%;
+	width:92%;
 	opacity: 0;
 	transition: all 1s;
 }
