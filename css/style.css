@@ -1106,9 +1106,9 @@
 	font-weight: bolder;
 	font-color: #000;
 	position: absolute;
-	width:80%;
-	top:11%;
-	margin-left:2%;
+	width:85%;
+	top:14%;
+	margin-left:1%;
 	opacity: 0;
 	transition: all 0.5s;
 	width:88%;
@@ -1885,11 +1885,28 @@
 	opacity: 0;
 	transition: all 1s;
 }
-
 .active .ly-txt82 {
 	opacity: 1;
 	transition-delay: 4s;
 }
+.ly-txt82-1 {
+	font-family: STXinwei;
+	font-size: 15px;
+	text-indent:1em;
+	font-color: #000;
+	position: absolute;
+	padding-top: 20px;
+	left: 5%;
+	top: 5%;
+	width:92%;
+	opacity: 0;
+	transition: all 1s;
+}
+.active .ly-txt82-1 {
+	opacity: 1;
+	transition-delay: 4s;
+}
+
 /*图片*/
 .ly-imgbox81{
 	position: absolute;
