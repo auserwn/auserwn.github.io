@@ -24,7 +24,7 @@ var S = {
     //     window.location.href="../html/BirthdayCake.html";
     //   }
     // });
-    window.location.href="../html/BirthdayCake.html";
+    window.location.href="../html/3d-album.html";
   }
 };
 
